@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right, #A0E4CB, #A8E890);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
+/*Whole Calculator part*/
+.calculator{
+width: 300px;
+height: 500px;
+box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+border-radius: 12px;
+background-color: #181818;
+overflow: hidden;
+}
+
+/*Output screen part*/
+form input{
+    width: 90%;
+    border: none;
+    border-radius: 12px;
+    height: 100px;
+    text-align: right;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+    pointer-events: none;
+}
+/*buttons class*/
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 10px;
+}
+
+/*each single button*/
+button{
+    width: 60px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/*color button*/
+.btn-yellow{
+    background-color: #F49D1A;
+}
+.btn-grey{
+    background-color: #C7BCA1;
+}
+.btn-clear{
+    background-color: #DC3535;
+}
+.btn-equal{
+    background-color: green;
+}
+
+
